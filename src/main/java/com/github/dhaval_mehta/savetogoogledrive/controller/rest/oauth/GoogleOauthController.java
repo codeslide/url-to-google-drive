@@ -56,8 +56,8 @@ public class GoogleOauthController {
 	private final static String RESPONSE_TYPE = "code";
 	private final static String SCOPE = "https://www.googleapis.com/auth/drive.file https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email";
 	private final static String GRANT_TYPE = "authorization_code";
-	private final static String CLIENT_ID = System.getenv("client_id");
-	private final static String CLIENT_SECRET = System.getenv("client_secret");
+	private final static String CLIENT_ID = System.getenv("783399646828-602iaf7u3igkikbgnk60dbdv1cbm1pmk.apps.googleusercontent.com");
+	private final static String CLIENT_SECRET = System.getenv("KynsVyY6kSmTMPLnGEsQYe0j");
 	private final static String REDIRECT_URI = System.getenv("redirect_uri");
 	private final static Gson gson = new GsonBuilder()
 			.setFieldNamingPolicy(FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES).create();
